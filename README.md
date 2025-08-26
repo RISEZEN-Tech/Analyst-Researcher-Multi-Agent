@@ -38,10 +38,11 @@ View structured results with citations and optional debug context.
 git clone https://github.com/yourusername/green-team-agents.git
 cd green-team-agents
 
-2. Install dependencies
-pip install -r requirements.txt
+2. Set up environment
+python -m venv myenv
 
-3. Set up environment
+3. Install dependencies
+pip install -r requirements.txt
 
 Create a .env file with your Groq API key
 GROQ_API_KEY=your_api_key_here
