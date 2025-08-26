@@ -34,20 +34,19 @@ Upload your own CSV file for real data analysis.
 View structured results with citations and optional debug context.
 
 ## 🚀 Getting Started
-1. Clone this repo
-git clone https://github.com/yourusername/green-team-agents.git
-cd green-team-agents
 
-2. Set up environment
+1. Set up environment
 python -m venv myenv
 
-3. Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-Create a .env file with your Groq API key
+Create a .env file with your Groq API key:
+
 GROQ_API_KEY=your_api_key_here
 
-4. Run the app
+3. Run the app
+
 streamlit run team.py
 
 ## 📂 Project Structure
